@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khabar Divi Naki</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body class="bg-gray">
+    <h2 class="text-center text-success">Search Your Favorite Food</h2>
+    <!-- Meal Search Area -->
+    <div class="input-group mb-3 w-50 mx-auto">
+        <input id="search-field" type="text" class="form-control" placeholder="Search the food you want" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button onclick="serachFood()" class="btn btn-outline-secondary" type="button" id="button-search">search</button>
+    </div>
+
+   <!--  Meal Serach Result -->
+   <div id="search-result" class="row row-cols-1 row-cols-md-3 g-4">
+    
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="js/mealDB.js"></script>
+</body>
+</html>
